@@ -1,4 +1,7 @@
-local M = { tbl = {} }
+local M = {
+    tbl = {},
+    math = {},
+}
 
 function M.tbl.range(tbl, start_index, end_index)
     local res = {}
@@ -7,5 +10,7 @@ function M.tbl.range(tbl, start_index, end_index)
     end
     return res
 end
+
+M.math.max_integer = 4294967296
 
 return M
