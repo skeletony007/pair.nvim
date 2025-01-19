@@ -3,6 +3,11 @@
 Pair programming plugin for neovim written in Lua using Vim client-server
 communication.
 
+> [!WARNING]
+> This plugin demonstrates collaborative programming in neovim as a concept. I
+> plan to create a more reliable version at some point in the future. Any
+> contributions are welcome.
+
 ### Features
 
 **pair.nvim** starts a peer-to-peer "server" (`:PairServer`) and "client"
